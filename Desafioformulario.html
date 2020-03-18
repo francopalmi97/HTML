@@ -3,24 +3,36 @@
 <title>Desafio Formularios</title>
     </head>
     <body>
-        <h1>Nombre</h1>
-        <input type="text" name="Nombre de la persona">
+<h1> Formulario de contacto</h1>
 
-        <h1>Apellido</h1>
-        <input type="text" apellido= "Apellido de la persona">
-
-        <h1>Edad</h1>
-        <input type="text" apellido= "Edad de la persona">
-
-        <h1>Nacionalidad</h1>
+        <form action="hola.com/formulario">
+        <p>Nombre</p>
         <label>
-             <select name="Nacionalidad">
+            <input type="text" name="nombre_persona">
+       
+        </label>
+        
+        <p>Apellido</p>
+        <label>
+            <input type="text" name= "apellido_persona">
+        </label>
+       
+
+        <p>Edad</p>
+        <label>
+            <input type="number" min="0" max="99" name= "edad">
+        </label>
+       
+
+        <p>Nacionalidad</p>
+        
+             <select name="nacionalidad">
             <option value="Argentina"> Argentina </option>
             <option value="Uruguaya"> Uruguaya </option>
         </select>
-    </label>
+    
 <br>
-<h1>Tecnología </h1>
+<p>Tecnología </p>
 
 <label>  
     <input type="checkbox" value="Front End"> 
@@ -39,16 +51,16 @@
         Back End
     </label>
 
-    <h1> Sos mayor de edad?</h1>
+    <p> Sos mayor de edad?</p>
 
 
     <label>
-        <input type="radio" name="Mayor de edad" value="Si">
+        <input type="radio" name="mayoria_de_edad" value="Si">
         Si  
     </label>
     <br>
     <label>
-        <input type="radio" name="Mayor de edad" value="No">
+        <input type="radio" name="mayoria_de_edad" value="No">
         No 
     </label>
 <br>
@@ -56,6 +68,7 @@
 <br>
 
 <input type="submit" value="Enviar">
+</form>
                
 
     </body>
