@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+article {
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    color: grey;
+    margin-bottom: 2.6em;
+}
+
+span, time {
+    margin-right: 1em;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+h1 {
+    color: grey;
+}
