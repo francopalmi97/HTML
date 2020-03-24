@@ -1,0 +1,85 @@
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.PINNED {
+        color: grey;
+    font-size: smaller;
+    
+  
+}
+
+.RECENT {
+
+    color: grey;
+    font-size: smaller;
+}
+
+.By {
+    color: grey;
+}
+
+.under {
+    color:grey;
+}
+
+.link {
+    color: lightseagreen;
+}
+
+
+
+.article-one {
+    margin: auto;
+    width: 700px;
+    margin-top: 85px;
+
+
+}
+
+.article-two {
+    margin: auto;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.hr {
+    margin-bottom: 30px;
+    border-color: lightgrey;
+    border-style: double;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    float: right;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.CSS { background-color: green;
+        color: white;
+        padding: 1px 10px;
+        font-size: 0.7em;
+
+}
+
+.PURE {
+    background-color: royalblue;
+    COLOR: white;
+    padding: 1PX 10PX;
+    font-size: 0.7em;
+}
+
+.JavaScript {
+    background-color: crimson;
+    color: white;
+    padding: 1.5px 2.5px;
+    font-size: smaller;
+}
+
+p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
